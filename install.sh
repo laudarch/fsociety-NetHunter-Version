@@ -49,13 +49,13 @@ fi
 if [ -d "$refdir/fsociety" ] ;
 then
 echo "";
-echo "[✔]Tool istalled with success![✔]";
+echo "[✔]Tool installed with success![✔]";
 echo "";
   echo "[✔]====================================================================[✔]";
   echo "[✔] ✔✔✔  All is done!! You can execute tool by typing fsociety !   ✔✔✔ [✔]"; 
   echo "[✔]====================================================================[✔]";
   echo "";
 else
-  echo "[✘] Installation faid![✘] ";
+  echo "[✘] Installation failed![✘] ";
   exit
 fi
